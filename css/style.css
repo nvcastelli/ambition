@@ -42,7 +42,14 @@ body {
 }
 
 .raider {
-    order:3;
+    /*order:3;*/
+    flex-grow: 3;
     padding: 100px;
+}
+
+#recruit {
+    text-align: left;
+    padding-right: 50px;
+    max-width: 300px;
 }
 /* .main-menu > * > a */
