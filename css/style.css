@@ -47,9 +47,53 @@ body {
     padding: 100px;
 }
 
+
 #recruit {
     text-align: left;
     padding-right: 50px;
     max-width: 300px;
 }
+
+.player-tile {
+    background-color: #242527;
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    box-shadow: 0 2px 4px #1b1b1b;
+    overflow: hidden;
+    min-height: 105px;
+    max-height: 105px;
+    border: 1px solid #2D2E2F;
+}
+.player-tile .player-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 10px 10px 0;
+    display: block;
+}
+.player-tile .player-name a {
+    color: #fff !important;
+}
+.player-tile .raider-avatar {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-left: -145px;
+    overflow: hidden;
+    height: 105px;
+}
+.player-tile .raider-avatar img {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+}
+
+.player-tile .player-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+
+
 /* .main-menu > * > a */
