@@ -42,11 +42,10 @@ body {
 }
 
 .raider {
-    /*order:3;*/
     flex-grow: 3;
     padding: 100px;
+    width:40%;
 }
-
 
 #recruit {
     text-align: left;
@@ -78,9 +77,11 @@ body {
     position: relative;
     margin: 0 auto;
     display: block;
-    margin-left: -145px;
+    margin-left: -150px;
     overflow: hidden;
     height: 105px;
+    width: 150px;
+    float: right;
 }
 .player-tile .raider-avatar img {
     height: 100%;
@@ -93,7 +94,28 @@ body {
     height: 50px;
     border-radius: 6px;
 }
+.raider-tile-info {
+    position: relative;
+}
 
+.raider-avatar .raider-avatar-overlay {
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#242527),to(rgba(38,42,50,0.2)));
+    background: -webkit-linear-gradient(left,#242527,rgba(38,42,50,0.2));
+    background: -moz-linear-gradient(left,#242527,rgba(38,42,50,0.2));
+    background: -o-linear-gradient(left,#242527,rgba(38,42,50,0.2));
+    background: -ms-linear-gradient(left,#242527,rgba(38,42,50,0.2));
+    background: linear-gradient(left,#242527,rgba(38,42,50,0.2));
+    background-color: rgba(38,42,50,0);
+    position: absolute;
+    top: 0;
+    right: -100px;
+    left: 0;
+    bottom: 0;
+}
+
+.player-name  a{
+    text-decoration: none;
+}
 
 
 /* .main-menu > * > a */
