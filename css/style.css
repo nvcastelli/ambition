@@ -125,6 +125,7 @@ body {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
+    height: 500px;
     position: relative;
     margin: auto;
 }
@@ -132,6 +133,13 @@ body {
 .slideshow-container img {
     height:100%;
     width:100%;
+}
+
+.mySlides {
+    height:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* Next & previous buttons */
