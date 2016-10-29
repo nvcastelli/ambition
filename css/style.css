@@ -235,3 +235,24 @@ body {
 
 
 /* End slideshow css*/
+
+#slideRecruit {
+    display: flex;
+}
+
+#slideRecruit #slideshowFull {
+    width: 100%;
+}
+
+#slideRecruit #recruit{
+    background-color: #242527;
+    color: white;
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    box-shadow: 0 2px 4px #1b1b1b;
+    overflow: hidden;
+    border: 1px solid #2D2E2F;
+    height:100%;
+
+}
