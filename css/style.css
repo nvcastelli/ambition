@@ -43,10 +43,10 @@ body {
     padding-right: 100px;
 }
 
-.raider {
-    flex-grow: 3;
-    padding: 100px;
-    width:40%;
+    .raider {
+        flex-grow: 3;
+        padding: 100px;
+        width:40%;
 }
 
 #info{
@@ -254,5 +254,9 @@ body {
     overflow: hidden;
     border: 1px solid #2D2E2F;
     height:100%;
+}
 
+#guwop {
+    display: flex;
+    flex-wrap: wrap;
 }
